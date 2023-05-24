@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./01_styles.css">
+    <link rel="stylesheet" href="./02_media.css">
+    
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+    <header class="container">
+         <img src="./Img/Captura de pantalla 2023-04-12 153439.png" alt="alura" class="alura" height="60%">
+         <h1>Enciptador de Texto</h1>
+    </header>
+
+
+    <main>
+        <section class="padre">
+
+            <section class="contenedor">
+              
+                    <textarea class="ta1"  id="addText" placeholder="Agrega un texto"></textarea>
+             
+
+                <div class="btn">
+                    <button id="btn-encrypt" onclick="encriptador()"  class="e">Encriptar</button>
+                    <button id="btn-unencrypt" onclick="desencriptar()"  class="d">Desencriptar</button>
+                </div>
+            </section>
+
+    
+            <section class="contenedor-2">
+             
+                    <textarea class="ta2" name="" id="encripText" placeholder="Texto encriptado"></textarea>
+               
+
+                <div class="clr">
+                    <button id="copy" class="c">Copiar</button>
+                </div>
+            </section>
+
+        </section>
+
+
+        <footer class="foot-content">
+            <h2>Hecho por Augusto Villalba</h2>
+
+            <div class="redes">
+                
+            <a href="www.linkedin.com/in/augusto-villalba-dev" target="_blank"><img src="./Img/icons8-linkedin-48.png" alt="lin" title="Linkedin"></a>  
+            <a href="https://github.com/Augu322" target="_blank"><img src="./Img/icons8-github-64.png" alt="git" title="GitHub"></a>
+            </div>
+        </footer>
+       
+    </main>
+    
+</body>
+<script src="./03_app.js"></script>
+</html>
